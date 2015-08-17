@@ -8,7 +8,33 @@
 </head>
 <body>
 
-<%= yield %>
+		
+
+	<nav class="navbar navbar-fixed">
+		<nav class="navbar navbar-inverse">
+		<div class="collapse navbar-collapse">
+		
+				<div class="navbar-inner">
+					<div class="container">
+						<a href="#" class="brand"><h1><i><b>Treebook</b></i></h1></a>
+						<ul class="nav">
+							<li><%= link_to "All Statuses", statuses_path %></li>
+
+
+					</div>
+				</div>
+
+		</div>
+		</nav>	
+	</nav>
+		
+
+		<div class="container">
+			<div class="row">
+
+			</div>
+			<%= yield %>
+		</div>
 
 </body>
 </html>
